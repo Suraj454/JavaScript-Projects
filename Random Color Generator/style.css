@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 450px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+button{
+    margin-top: 6px;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    font-size: 1.4rem;
+    display: block;
+    border: none;
+    background-color: black;
+    color: white;
+}
